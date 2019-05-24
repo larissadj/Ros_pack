@@ -1,0 +1,212 @@
+
+.myButton {
+    border: 1px solid #020201;
+      background: #42ff33;
+      padding: 60px 120px;
+      front-family: "montserrat";
+      cursor: pointer;
+      margin: 10px;
+      transition: 0.8s;
+}
+
+body{
+margin: 0;
+padding: 0;
+
+}
+.titel{
+  text-align: center;
+  margin-top: 160px;
+  font-size: 50px;
+}
+
+
+
+.btn{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container{
+  text-align: center;
+  margin-top: 360px;
+
+}
+.btn1{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 140px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn2{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 70px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 100px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn3{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 140px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn4{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 70px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 100px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn5{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 140px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn6{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 70px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 100px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn7{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 140px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn8{
+  border: 3px solid #020201;
+  border-radius: 20px;
+  font-size: 80px;
+  box-shadow: 0px 17px 10px -7px; rgba(0,0,0,0.4);
+  background: #99cc00;
+  padding: 50px 100px;
+  front-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+
+}
+.btn1{
+  color: #fdfdfd;
+}
+.btn2{
+  color: #fdfdfd;
+}
+.btn3{
+  color: #fdfdfd;
+}
+.btn4{
+  color: #fdfdfd;
+}
+.btn5{
+  color: #fdfdfd;
+}
+.btn6{
+  color: #fdfdfd;
+}
+.btn7{
+  color: #fdfdfd;
+}
+.btn8{
+  color: #fdfdfd;
+}
+
+.btn1:hover{
+color: #34b52c;
+}
+.btn2:hover{
+color: #34b52c;
+}
+.btn3:hover{
+color: #34b52c;
+}
+.btn4:hover{
+color: #34b52c;
+}
+.btn5:hover{
+color: #34b52c;
+}
+.btn6:hover{
+color: #34b52c;
+}
+.btn7:hover{
+color: #34b52c;
+}
+.btn8:hover{
+color: #34b52c;
+}
+.btn::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   width: 100%;
+   height: 0%
+   background: ;
+   z-index: -1;
+   transition: 0.8s;
+}
+.btn1::before{
+top: 0;
+border-radius: 50% 50% 0 0;
+}
+.btn2::before{
+bottom: 0;
+border-radius: 0 0 50% 50%;
+}
+.btn2::hover::before{
+height: 180%;
+}
+.btn2::hover::before{
+height: 0%;
+}
+
